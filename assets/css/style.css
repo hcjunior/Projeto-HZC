@@ -31,3 +31,12 @@ body {
 .cabecalho_logo {
     width: 40px;
 }
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-lateral_logo {
+    align-self: center;
+}	
