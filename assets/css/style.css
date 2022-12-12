@@ -20,8 +20,14 @@ body {
 
 .cabecalho_menu i::before {
     content: "\e904";
+    font-size: 24px;
 }
 
 .cabecalho_notificacao i::before {
     content: "\e906";
+    font-size: 24px;
+}
+
+.cabecalho_logo {
+    width: 40px;
 }
