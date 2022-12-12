@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 body {
     background-color: #1d232a;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'icones', sans-serif;
     color: white;
 }
 
@@ -11,4 +16,12 @@ body {
     background-color: #15191C;
     padding: 8px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.cabecalho_menu i::before {
+    content: "\e904";
+}
+
+.cabecalho_notificacao i::before {
+    content: "\e906";
 }
