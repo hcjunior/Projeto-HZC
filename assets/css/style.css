@@ -35,8 +35,14 @@ body {
 .menu-lateral {
     display: flex;
     flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
 }
 
 .menu-lateral_logo {
     align-self: center;
+    width: 118px;
+    padding: 16px;
 }	
+
