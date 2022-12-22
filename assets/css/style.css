@@ -63,6 +63,12 @@ body {
     left: 24px;
 }
 
+.menu-lateral__link--ativo {
+    color: #fff;
+    padding-left: 56px;
+    border-left: 8px solid #fff;
+}
+
 .menu-lateral__link--inicio::before {
     content: "\e902";
 }
