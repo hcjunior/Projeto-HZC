@@ -104,6 +104,8 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
@@ -111,11 +113,20 @@ body {
     font-weight: 700;
 }
 
+.titulo-secao {
+    font-size: 1.2rem;
+    font-weight: 700;
+}	
+
 .cartao {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
     background: #2C343A;
+}
+
+.cartao--destaque {
+    margin-bottom: 16px;
 }
 
 .cartao__conteudo {
@@ -166,6 +177,7 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
@@ -180,4 +192,9 @@ body {
 
 .cartao__botao--destaque i::before {
     margin-right: 8px;
+}
+
+.secao {
+    display: grid;
+    gap: 16px;
 }
